@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airports</title>
+</head>
+<body>
+    <h1> Airports Info </h1>
+    {% for airport in airports %}
+        <ol> latitude: {{ airport.latitude }}, longitude: {{airport.longitude}}   </ol>
+    {% end %}
+</body>
+</html>

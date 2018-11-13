@@ -1,0 +1,25 @@
+{% extends "dashboard_layout.html" %}
+
+{% block map %}
+    {{ year }}
+    <iframe class="map" height="700px" width="40%" src="../static/map_of_the_year.html" name="iframe_a"></iframe>
+{% endblock %}
+
+{% block fig1 %}
+	<div class="your-graph1" style="width: 280px; height: 260px">
+		<img src="../static/graph1_of_the_year.png" alt="bar chart" width="100%">
+	</div>
+{% endblock %}
+
+{% block fig2 %}
+	<div class="your-graph2" style="width: 280px; height: 260px">
+		<img src="../static/graph2_of_the_year.png" alt="pie chart" width="100%">
+	</div>
+{% endblock %}
+
+{% block fig3 %}
+	<div class="your-graph3" style="width: 280px; height: 260px">
+		<img src="../static/graph3_of_the_year.png" alt="area chart" width="100%">
+	</div>
+{% endblock %}
+
